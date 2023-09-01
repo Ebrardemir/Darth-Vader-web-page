@@ -1,0 +1,107 @@
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#h1başlık{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:40px;
+    color:rgba(91, 27, 27, 0.9);
+    position: absolute;
+    top: 20px;
+    left: 150px; 
+}
+.box{
+    background-color: rgba(16, 79, 156, 0.45);	
+    border: 1px solid black;
+	padding:10px;
+	width: 500px;
+	height: 510px;
+    position: relative;
+    top:120px;
+    left: 120px;
+    border-style:outset;
+    border-radius: 8px;
+    box-shadow: 9px 4px 2px rgba(0, 0, 0, 0.2);
+   
+}
+
+.box h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(167, 225, 241);
+    font-size: 40px;
+    font-weight:bolder;
+    text-align: center;
+    margin:5px;
+ 
+ }
+ .box p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size:17px;
+    line-height: 1.2;
+    text-align:justify;
+    margin: 10px;
+    padding: 5px;
+
+}
+.box h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(167, 225, 241);
+    font-variant-ligatures: common-ligatures;
+    font-weight: 500px;
+    position: absolute;
+    top: 320px;
+    left: 38px;
+
+}
+#İLGİALANLARI{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    font-variant: small-caps;
+    position: absolute;
+    top: 360px;
+    left: 15px;
+}
+#İLGİALANLARI ul {
+    margin-bottom: 5px;
+}
+  
+  #İLGİALANLARI li {
+    padding-bottom: 5px;
+}
+
+#link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 480px;
+    left: 70px;
+    color: #040404;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #6e1713;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+#link{
+    background-color:rgb(98, 44, 44, 0.9);
+    color: #040404;
+}
+#link:visited{
+    background-color:rgb(179, 179, 179);
+  
+}
+#link:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-color:rgba(255, 255, 255, 0.45);
+    border-color: #fff;
+}
+  
+#link:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
